@@ -1,15 +1,3 @@
-// const wbm = require('wbm');
-
-// wbm.start().then(async () => {
-//     const phones = ['9647725487690'];
-//     var message;
-//     for (let i = 0; i < 3; i++) {
-//         message = 'Good Morning ' + i;
-//         await wbm.send(phones, message);
-//         console.log("To " + phones + ": " + message);
-//     }
-//     // await wbm.end();
-// }).catch(err => console.log(err));
 
 const { Client } = require('whatsapp-web.js');
 const QR = require('qrcode-terminal');
